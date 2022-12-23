@@ -1,0 +1,25 @@
+{
+  "name": "firebase-mongo-migrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/cmd/cli/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w -p ./tsconfig.json",
+    "build": "tsc",
+    "start": "node ./dist/src/cmd/cli/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yendope/firebase-mongo-migrator.git"
+  },
+  "author": "Yendo! Perú 🇵🇪",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yendope/firebase-mongo-migrator/issues"
+  },
+  "homepage": "https://github.com/yendope/firebase-mongo-migrator#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
